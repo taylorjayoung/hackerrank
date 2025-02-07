@@ -8,4 +8,6 @@ where marks > 75
 order by  substr(name, length(name) - 2) asc, id asc;
 
 
---improved
+--alt
+SUBSTRING(Name, -3)
+RIGHT(Name, 3),
